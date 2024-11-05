@@ -1,0 +1,32 @@
+export const navLinksdata = [
+    {
+        _id:1,
+        title:"Accueil",
+        link:"home",
+    },
+    {
+        _id:2,
+        title:"Caractéristiques",
+        link:"features",
+    },
+    {
+        _id:3,
+        title:"Projets",
+        link:"projets",
+    },
+    {
+        _id:4,
+        title:"CV",
+        link:"resume",
+    },
+    {
+        _id:5,
+        title:"Témoignages",
+        link:"testimonials",
+    },
+    {
+        _id:6,
+        title:"Contacts",
+        link:"contacts",
+    }
+]
