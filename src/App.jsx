@@ -1,6 +1,6 @@
-import Banner from "./components/banner";
 import Feactures from "./components/feactures";
 import Navbar from "./components/navbar";
+import Home from './pages/home';
 
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <div className="w-full h-auto bg-bodyColor">
       <div className="max-w-screen-2xl mx-auto px-16">
         <Navbar />
-        <Banner/>
+        <Home/>
         <Feactures/>
       </div>
     </div>

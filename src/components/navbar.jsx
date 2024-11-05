@@ -3,9 +3,10 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
-        <div className="w-full h-full mx-auto flex justify-between items-center font-titleFont">
+        <div className="w-full h-full h-24 mx-auto flex justify-between items-center font-titleFont
+            border-b-[1px] border-b-gray-300">
             <div>
-                <img src="./person1.png" width="50px" height="50px" />
+                <img src="./person1.png" className="w-[50px] h-[50px]" />
             </div>
             <div>
                 <ul className="flex items-center gap-10">
